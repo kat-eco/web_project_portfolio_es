@@ -41,10 +41,15 @@
           </ul>
         </nav>
       </section>
-      <img class="header-image" src="" alt="Foto de Katia Hernández" />
+      <img
+        class="header-image"
+        src="./images/Katia-Hernandez.jpeg"
+        alt="Foto de Katia Hernández"
+      />
+      <div class="radial-effect-1 radial-effects"></div>
     </header>
     <section class="skills">
-      <h2>Habilidades y herramientas</h2>
+      <h2 class="skills-subtitle subtitle">Habilidades y herramientas</h2>
       <div class="skills-logos">
         <img
           class="skills-logo"
@@ -70,130 +75,147 @@
         />
       </div>
     </section>
-    <section class="projects">
-      <div class="project">
-        <img
-          class="project-image"
-          src="./images/cafeteria.png"
-          alt="Página web de una cafetería"
-        />
-        <img
-          class="project-image-icon"
-          src="./images/HTML5-logo.svg"
-          alt="HTML5 logo"
-        />
-        <img
-          class="project-image-icon"
-          src="./images/CSS3-logo.svg"
-          alt="CSS3 logo"
-        />
-        <h3 class="project-title">Página web de una cafetería</h3>
-        <p class="project-description">
-          Desarrollo de una landing page responsiva para una cafetería siguiendo
-          un brief de diseño. Incluye estructura semántica, maquetación con
-          Flexbox, creación de secciones nuevas y un formulario de contacto
-          funcional.Logro: Implementé desde cero el diseño completo de la
-          página, organicé el proyecto con buenas prácticas y publiqué la
-          versión final utilizando GitHub Pages.
-        </p>
-        <nav>
-          <ul>
-            <li>
-              <a
-                href="https://kat-eco.github.io/web_project_coffeeshop_es/"
-                class="project-web_demo"
-                ><img
-                  class="project-web_demo-icon"
-                  src="./images/Union.svg"
-                  alt="Icono Union"
-                />Demo en vivo</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/kat-eco/web_project_coffeeshop_es"
-                class="project-github_link"
-                ><img
-                  class="project-github_link-icon"
-                  src="./images/GitHub-logo.svg"
-                  alt="Icono GitHub"
-                />GitHub</a
-              >
-            </li>
-          </ul>
-        </nav>
+    <h2 class="projects-subtitle subtitle">Proyectos destacados</h2>
+    <main class="projects">
+      <div class="card">
+        <div class="card__image-container">
+          <img
+            class="card__image"
+            src="./images/cafeteria.png"
+            alt="Página web de una cafetería"
+          />
+          <div class="card__invisible-layer"></div>
+          <div class="card__image-icons">
+            <img
+              class="card__image-icon"
+              src="./images/HTML5-logo.svg"
+              alt="HTML5 logo"
+            />
+            <img
+              class="card__image-icon"
+              src="./images/CSS3-logo.svg"
+              alt="CSS3 logo"
+            />
+          </div>
+        </div>
+        <div class="card__info">
+          <h3 class="card__title">Página web de una cafetería</h3>
+          <p class="card__description">
+            Desarrollo de una landing page responsiva para una cafetería
+            siguiendo un brief de diseño. Incluye estructura semántica,
+            maquetación con Flexbox, creación de secciones nuevas y un
+            formulario de contacto funcional.Logro: Implementé desde cero el
+            diseño completo de la página, organicé el proyecto con buenas
+            prácticas y publiqué la versión final utilizando GitHub Pages.
+          </p>
+          <nav>
+            <ul class="card__project-links">
+              <li>
+                <a
+                  href="https://kat-eco.github.io/web_project_coffeeshop_es/"
+                  class="card__web-demo-link card__project-link"
+                  ><img
+                    class="card__project__link-icon"
+                    src="./images/Union.svg"
+                    alt="Icono Union"
+                  />Demo en vivo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kat-eco/web_project_coffeeshop_es"
+                  class="card__github-link card__project-link"
+                  ><img
+                    class="card__project__link-icon"
+                    src="./images/GitHub-logo.svg"
+                    alt="Icono GitHub"
+                  />GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="project">
-        <img
-          class="project-image"
-          src="./images/mi-proyecto.png"
-          alt="Mi proyecto"
-        />
-        <img
-          class="project-image-icon"
-          src="./images/JavaScript-logo.svg"
-          alt="JavaScript logo"
-        />
-        <img
-          class="project-image-icon"
-          src="./images/React-logo.svg"
-          alt="React logo"
-        />
-        <h3 class="project-title">Mi proyecto</h3>
-        <p class="project-description">Descripción del proyecto</p>
-        <nav>
-          <ul>
-            <li>
-              <a href="" class="project-web_demo"
-                ><img
-                  class="project-web_demo-icon"
-                  src="./images/Union.svg"
-                  alt="Icono Union"
-                />Demo en vivo</a
-              >
-            </li>
-            <li>
-              <a href="" class="project-github_link"
-                ><img
-                  class="project-github_link-icon"
-                  src="./images/GitHub-logo.svg"
-                  alt="Icono GitHub"
-                />GitHub</a
-              >
-            </li>
-          </ul>
-          >
-        </nav>
+      <div class="card">
+        <div class="card__image-container">
+          <img
+            class="card__image"
+            src="./images/mi-proyecto.png"
+            alt="Mi proyecto"
+          />
+          <div class="card__invisible-layer"></div>
+          <div class="card__image-icons">
+            <img
+              class="card__image-icon"
+              src="./images/JavaScript-logo.svg"
+              alt="JavaScript logo"
+            />
+            <img
+              class="card__image-icon"
+              src="./images/React-logo.svg"
+              alt="React logo"
+            />
+          </div>
+        </div>
+        <div class="card__info">
+          <h3 class="card__title">Mi proyecto</h3>
+          <p class="card__description">Descripción del proyecto</p>
+          <nav>
+            <ul class="card__project-links">
+              <li>
+                <a href="" class="card__web-demo-link card__project-link"
+                  ><img
+                    class="card__project__link-icon"
+                    src="./images/Union.svg"
+                    alt="Icono Union"
+                  />Demo en vivo</a
+                >
+              </li>
+              <li>
+                <a href="" class="card__github-link card__project-link"
+                  ><img
+                    class="card__project__link-icon"
+                    src="./images/GitHub-logo.svg"
+                    alt="Icono GitHub"
+                  />GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </section>
-    <footer class="contact" id="contact">
-      <h3 class="contacto">Contacto</h3>
-      <p>student@tripleten.com</p>
-      <a href="https://mx.linkedin.com/" class="social_media-link">
-        <img
-          class="social_media-icon"
-          src="./images/Linkedin-icon.svg"
-          alt=" Icono de Linkedin"
-        />
-      </a>
-      <a href="https://www.facebook.com/" class="social_media-link"
-        ><img
-          class="social_media-icon"
-          src="./images/Facebook-icon.svg"
-          alt="Icono de Facebook"
-      /></a>
-      <a href="https://www.instagram.com/" class="social_media-link"
-        ><img
-          class="social_media-icon"
-          src="./images/Instagram-icon.svg"
-          alt="Icono de Instagram"
-      /></a>
-      <a href="https://x.com/?lang=es" class="social_media-link"
-        ><img
-          class="social_media-icon"
-          src="./images/x-twitter-icon.svg"
-          alt="Icono de X"
-      /></a>
+    </main>
+    <footer class="contact" id="contacto">
+      <h2 class="contact-subtitle subtitle">Contacto</h2>
+      <p class="email">student@tripleten.com</p>
+      <div class="social-media">
+        <a href="https://mx.linkedin.com/" class="social-media__link">
+          <img
+            class="social-media__icon"
+            src="./images/Linkedin-icon.svg"
+            alt=" Icono de Linkedin"
+          />
+        </a>
+        <a href="https://www.facebook.com/" class="social-media__link"
+          ><img
+            class="social-media__icon"
+            src="./images/Facebook-icon.svg"
+            alt="Icono de Facebook"
+        /></a>
+        <a href="https://www.instagram.com/" class="social-media__link"
+          ><img
+            class="social-media__icon"
+            src="./images/Instagram-icon.svg"
+            alt="Icono de Instagram"
+        /></a>
+        <a href="https://x.com/?lang=es" class="social-media__link"
+          ><img
+            class="social-media__icon"
+            src="./images/x-twitter-icon.svg"
+            alt="Icono de X"
+        /></a>
+        <div class="radial-effect-2 radial-effects"></div>
+      </div>
     </footer>
   </body>
 </html>
