@@ -294,7 +294,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
 }
 
 .contact-subtitle {
@@ -321,6 +320,7 @@ body {
   display: flex;
   gap: 80px;
   padding-bottom: 100px;
+  /*overflow: hidden;*/
 }
 
 .social-media__icon {
@@ -333,7 +333,7 @@ body {
   height: 30px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
   body {
     padding: 0 40px;
   }
@@ -380,7 +380,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   body {
     padding: 20px 20px 0 20px;
     font-size: 16px;
